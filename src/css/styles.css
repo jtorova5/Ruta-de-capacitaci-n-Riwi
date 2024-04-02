@@ -121,12 +121,26 @@ article div h2{
 
 footer {
     display: flex;
-    justify-content: space-between;
     padding: 0px 60px;
     background-color: var(--background-etapas);
 }
 
-footer article a{
-    margin-right: 5px;
+footer .banner {
+    position: fixed;
+    bottom: 0;
+}
+
+footer .icono {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+footer .icono {
+    margin-right: 20px;
+}
+
+footer .icono a{
+    margin-right: 10px;
 }
 
